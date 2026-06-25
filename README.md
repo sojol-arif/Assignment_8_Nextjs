@@ -1,3 +1,19 @@
+This project Main Tools used:
+1) Nextjs
+2) Dasyui
+3) React From Hook 
+   -- in Animal Details page Form submit
+4) Better Auth 
+   -- for authentication
+
+This project Main Features Are:
+1) Authentication With google and login
+2) I used for Authentication Better-Auth
+3) Show my-profile page Data (name, email, profile image)
+4) Update profile data
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
