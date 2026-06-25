@@ -2,8 +2,10 @@
 @plugin "daisyui";
 
 @plugin "daisyui/theme" {
-  default: true; /* set as default */
-  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  default: true;
+  /* set as default */
+  prefersdark: false;
+  /* set as default dark mode (prefers-color-scheme:dark) */
 
   --color-base-100: #f9f9f9;
   --color-base-200: oklch(95% 0.03 240);
@@ -18,7 +20,7 @@
   --color-accent-content: #fff;
   --color-neutral: #FAFAFA;
   --color-neutral-content: oklch(98% 0.01 240);
-  
+
   --color-info: oklch(70% 0.2 220);
   --color-info-content: oklch(98% 0.01 220);
   --color-success: oklch(65% 0.25 140);
@@ -50,23 +52,31 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   font-family: var(--font-playfair);
 }
 
-.heading-font{
+.heading-font {
   font-family: var(--font-playfair);
   color: #012d1d;
 }
 
-.font-inter{
+.heading-color{
+  color: #012d1d;
+}
+
+.font-inter {
   font-family: var(--font-inter);
 }
 
 /* Navbar */
-.navbar{
+.navbar {
   font-size: 14px;
   font-weight: 600;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Turns a black icon completely white */
 }
 
 @layer components {

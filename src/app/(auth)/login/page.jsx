@@ -6,7 +6,6 @@ import { authClient } from '@/lib/auth-client';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 
-
 const Login = () => {
     const {
         register,

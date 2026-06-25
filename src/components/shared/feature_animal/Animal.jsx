@@ -8,7 +8,7 @@ const Animal = ({ animal }) => {
     const { id, name, price, breed, type, age, category, weight, location, image } = animal;
 
     return (
-        <Link className="card w-full max-w-sm bg-base-100 shadow-xl rounded-3xl overflow-hidden border border-gray-100" href={`/animal/${id}`}>
+        <Link className="card w-full max-w-sm bg-base-100 shadow-[0px_4px_20px_rgba(27,67,50,0.06)] rounded-[12px] overflow-hidden border border-[#e5e5e5] hover:translate-y-[-5px] hover:shadow-[0_5px_25px_rgba(27,67,50,0.15)] transition transition-transform ease-in-out" href={`/animal/${id}`}>
             {/* Image Container with Badges */}
             <div className="relative h-64 w-full">
                 <Image
