@@ -61,7 +61,7 @@ h6 {
   color: #012d1d;
 }
 
-.heading-color{
+.heading-color {
   color: #012d1d;
 }
 
@@ -76,7 +76,8 @@ h6 {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1); /* Turns a black icon completely white */
+  filter: invert(1);
+  /* Turns a black icon completely white */
 }
 
 @layer components {
@@ -87,7 +88,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   /* Max-width wrapper */
   .container_qurban {
-    @apply max-w-[1200px] mx-auto px-5 md:px-10;
+    @apply max-w-[1240px] mx-auto px-5 md:px-10;
   }
 
   /* Vertical section breathing room */
@@ -100,6 +101,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     @apply py-12 md:py-16;
   }
 
+  .section-space-xs {
+    @apply py-8 md:py-12;
+  }
 
   /* ──────────────────────────────────────
      4B. SECTION HEADINGS

@@ -4,7 +4,7 @@ import { mongodbAdapter } from "better-auth/adapters/mongodb";
 
 const client = new MongoClient(process.env.MONGO_URL);
 
-const db = client.db("dragon-news-nextjs");
+const db = client.db("assignment_8_nextjs");
 
 export const auth = betterAuth({
   database: mongodbAdapter(db, {
@@ -16,10 +16,6 @@ export const auth = betterAuth({
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    },
-    github: {
-      clientId: process.env.GITHUB_CLIENT_ID ,
-      clientSecret: process.env.GITHUB_CLIENT_SECRET,
     },
   },
 

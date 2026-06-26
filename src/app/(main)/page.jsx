@@ -1,13 +1,16 @@
 import FeatureAnimal from "@/components/shared/feature_animal/FeatureAnimal";
+import HeroSection from "@/components/shared/home/Heor";
+import TraditionInsights from "@/components/shared/home/Guided";
+import HeritageBreeds from "@/components/shared/home/heritageBreed";
 
 
 const HomePage = async () => {
   return (
     <div>
-      <div className="container_qurban section-space">
-        <h2>Home page</h2>
-      </div>
-      <FeatureAnimal></FeatureAnimal>
+      <HeroSection/>
+      <FeatureAnimal/>
+      <TraditionInsights/>
+      <HeritageBreeds/>
     </div>
   )
 };
